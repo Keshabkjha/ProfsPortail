@@ -1,8 +1,7 @@
-
-###ProfsPortail
+**ProfsPortail**
 ProfsPortail is a collaborative platform designed for institutes to facilitate seamless communication and management among professors, Head of Departments (HOD), and students. The platform aims to enhance productivity, streamline administrative tasks, and foster a sense of community within departments.
 
-Features
+##Features
 1. Profile Management
 Professors can create and manage their profiles, providing information about their department, expertise, and contact details.
 Students can access profiles to learn more about their professors and department.
