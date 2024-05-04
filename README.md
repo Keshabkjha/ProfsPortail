@@ -51,7 +51,7 @@ ProfsPortail is a collaborative platform designed for institutes to facilitate s
 
 **Contributions**
   
-  If you're interested in contributing to ProfsPortail, please contact us to discuss potential collaborations and enhancements. We welcome contributions from developers, designers, and educators to further       improve the platform's functionality and user experience.
+  If you're interested in contributing to ProfsPortail, please contact us to discuss potential collaborations and enhancements. We welcome contributions from developers, designers, and educators to further improve the platform's functionality and user experience.
 
 **Contact**
 
