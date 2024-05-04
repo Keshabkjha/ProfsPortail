@@ -1,7 +1,7 @@
 <?php
 
 function generate_leave_application($prompt) {
-    $api_key = 'AIzaSyCtYlx2vDTRT3jiC1G4MLyrR8vNb8FHxlM'; // Replace with your actual Google API key
+    $api_key = 'Your API Key'; // Replace with your actual Google API key
     $url = 'https://language.googleapis.com/v1/documents:analyzeContent?key=' . $api_key;
     
     // Construct the request body
