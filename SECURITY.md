@@ -2,9 +2,6 @@
 
 ## Supported Versions
 
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
-
 | Version | Supported          |
 | ------- | ------------------ |
 | 5.1.x   | :white_check_mark: |
@@ -14,8 +11,20 @@ currently being supported with security updates.
 
 ## Reporting a Vulnerability
 
-Use this section to tell people how to report a vulnerability.
 
-Tell them where to go, how often they can expect to get an update on a
-reported vulnerability, what to expect if the vulnerability is accepted or
-declined, etc.
+If You discover a vulnerability, You can:
+
+1. Go to the [Issues](https://github.com/keshabkjha/ProfsPortail/issues) section of the GitHub repository.
+2. Click on the "New Issue" button.
+3. Select the "Vulnerability Report" template.
+4. Provide a detailed description of the vulnerability, including steps to reproduce it.
+5. Include any relevant screenshots or error messages.
+
+After reporting a vulnerability:
+
+- You can expect an update on the reported vulnerability within [a week].
+- If the vulnerability is accepted, it will be assigned a severity level and prioritized accordingly.
+- Users will receive updates on the progress of the vulnerability resolution.
+- If the vulnerability is declined, a rationale will be provided.
+
+We encourage responsible disclosure and appreciate users' efforts in helping us maintain the security of our project.
