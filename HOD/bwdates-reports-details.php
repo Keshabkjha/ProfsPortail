@@ -13,7 +13,7 @@ if (strlen($_SESSION['trmsaid']==0)) {
 <html class="no-js" lang="en">
 <head>
    
-    <title>ProfsPortail Reports</title>
+    <title>ProfsPortail ||Attendance report</title>
    
 
     <link rel="apple-touch-icon" href="apple-icon.png">
@@ -48,7 +48,7 @@ if (strlen($_SESSION['trmsaid']==0)) {
             <div class="col-sm-4">
                 <div class="page-header float-left">
                     <div class="page-title">
-                        <h1>Between Dates Reports</h1>
+                        <h1>Attendance report</h1>
                     </div>
                 </div>
             </div>
@@ -57,7 +57,7 @@ if (strlen($_SESSION['trmsaid']==0)) {
                     <div class="page-title">
                         <ol class="breadcrumb text-right">
                             <li><a href="dashboard.php">Dashboard</a></li>
-                            <li><a href="bwdates-report-ds.php">Between Dates Reports</a></li>
+                            <li><a href="bwdates-report-ds.php">Attendance report</a></li>
                             <li class="active">Professor</li>
                         </ol>
                     </div>
@@ -71,10 +71,10 @@ if (strlen($_SESSION['trmsaid']==0)) {
                     <div class="col-lg-12">
                         <div class="card">
                             <div class="card-header">
-                                <strong class="card-title">View Professor Report Details</strong>
+                                <strong class="card-title">View Attendance report Details</strong>
                             </div>
                             <div class="card-body">
-<h4 class="m-t-0 header-title">Between Dates Reports</h4>
+<h4 class="m-t-0 header-title">Attendance report</h4>
                                     <?php
 $fdate=$_POST['fromdate'];
 $tdate=$_POST['todate'];
