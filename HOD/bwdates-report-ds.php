@@ -15,7 +15,7 @@ if (strlen($_SESSION['trmsaid']==0)) {
 
 <head>
    
-    <title>Professor Reports</title>
+    <title>Attendance report</title>
     <!-- Favicon-->
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
@@ -52,7 +52,7 @@ if (strlen($_SESSION['trmsaid']==0)) {
             <div class="col-sm-4">
                 <div class="page-header float-left">
                     <div class="page-title">
-                        <h1>Between Dates Reports</h1>
+                        <h1>Attendance report</h1>
                     </div>
                 </div>
             </div>
@@ -61,7 +61,7 @@ if (strlen($_SESSION['trmsaid']==0)) {
                     <div class="page-title">
                         <ol class="breadcrumb text-right">
                             <li><a href="dashboard.php">Dashboard</a></li>
-                            <li><a href="bwdates-report-ds.php">Between Dates Reports</a></li>
+                            <li><a href="bwdates-report-ds.php">Attendance report</a></li>
                             <li class="active">Reports</li>
                         </ol>
                     </div>
@@ -82,7 +82,7 @@ if (strlen($_SESSION['trmsaid']==0)) {
 
                     <div class="col-lg-12">
                         <div class="card">
-                            <div class="card-header"><strong>Between Dates</strong><small> Reports</small></div>
+                            <div class="card-header"><strong>Attendance</strong><small> Reports</small></div>
                             <form name="bwdatesreport"  action="bwdates-reports-details.php" method="post">
                                 <p style="font-size:16px; color:red" align="center"> <?php if($msg){
     echo $msg;

@@ -14,7 +14,7 @@
                         <a href="dashboard.php"> <i class="menu-icon fa fa-dashboard"></i>Dashboard </a>
                     </li>
 <li class="menu-item-has-children dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-tasks"></i>Subjects</a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-book"></i>Subjects</a>
                         <ul class="sub-menu children dropdown-menu">
                             <li><i class="menu-icon fa fa-file-o"></i><a href="add-subjects.php">Add Subjects</a></li>
                             <li><i class="menu-icon fa fa-file-o"></i><a href="manage-subjects.php">Manage Subjects</a></li>
@@ -28,19 +28,32 @@
                         </ul>
                     </li>
 
-<li class="active">
+                    <li class="active">
                         <a href="search.php"> <i class="menu-icon fa fa-search"></i>Search </a>
                     </li>
+                    
+                    
+                    
+  <li class="menu-item-has-children dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-list"></i>Reports</a>
+                        <ul class="sub-menu children dropdown-menu">
+                            <li><i class="menu-icon fa fa-bar-chart"></i><a href="bwdates-report-ds.php">Attendance report</a></li>
+                        </ul>
                     </li>
-                        <li class="active">
+                    <li class="active">
                         <a href="Chatt.php"> <i class="menu-icon fa fa-comment"></i>HOD Chat </a>
                     </li>
-  <li class="menu-item-has-children dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-tasks"></i>Reports</a>
-                        <ul class="sub-menu children dropdown-menu">
-                            <li><i class="menu-icon fa fa-file-o"></i><a href="bwdates-report-ds.php">Between Dates Report</a></li>
-                           
-                        </ul>
+                    <li class="active">
+                        <a href="Erp.php"> <i class="menu-icon fa fa-cogs"></i>Student's ERP </a>
+                    </li>
+                    <li class="active">
+                        <a href="Lecture.php"> <i class="menu-icon fa fa-graduation-cap"></i>Lecture </a>
+                    </li>
+                    <li class="active">
+                        <a href="Project.php"> <i class="menu-icon fa fa-tasks"></i>Project </a>
+                    </li>
+                    <li class="active">
+                        <a href="Exam.php"> <i class="menu-icon fa fa-calendar"></i>Examination</a>
                     </li>
 
                 </ul>

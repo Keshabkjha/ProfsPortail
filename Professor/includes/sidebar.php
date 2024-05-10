@@ -14,19 +14,32 @@
                         <li class="active">
                         <a href="dashboard.php"> <i class="menu-icon fa fa-dashboard"></i>Dashboard </a>
                     </li>
-                        
+                    <li>
                         <li class="active">
                         <a href="profile.php"> <i class="menu-icon fa fa-user"></i>Profile </a>
                     </li>
                     </li>
                     <li class="active">
-                        <a href="Chat.php"> <i class="menu-icon fa fa-comment"></i>HOD Chat </a>
-                    </li>
-                        <li class="active">
                         <a href="queries.php"> <i class="menu-icon fa fa-files-o"></i>Queries </a>
                     </li>
+                    
                     <li class="active">
-                        <a href="Grant.php"> <i class="menu-icon fa fa-comment"></i>HOD Grant </a>
+                        <a href="erp.php"> <i class="menu-icon fa fa-cogs"></i>Student's ERP </a>
+                    </li>
+                    <li class="active">
+                        <a href="Chat.php"> <i class="menu-icon fa fa-comment"></i>HOD Chat </a>
+                    </li>
+                    <li class="active">
+                        <a href="Grant.php"> <i class="menu-icon fa fa-envelope"></i>HOD Grant </a>
+                    </li>
+                    <li class="active">
+                        <a href="Lecture.php"> <i class="menu-icon fa fa-graduation-cap"></i>My Lecture </a>
+                    </li>
+                    <li class="active">
+                        <a href="Project.php"> <i class="menu-icon fa fa-tasks"></i>My Project </a>
+                    </li>
+                    <li class="active">
+                        <a href="Project.php"> <i class="menu-icon fa fa-calendar"></i>Examination </a>
                     </li>
                       <li class="active">
                         <a href="change-password.php"> <i class="menu-icon fa fa-cog"></i>Change Password </a>
