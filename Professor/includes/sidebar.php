@@ -39,7 +39,13 @@
                         <a href="Project.php"> <i class="menu-icon fa fa-tasks"></i>My Project </a>
                     </li>
                     <li class="active">
+                        <a href="mytasks.php"> <i class="menu-icon fa fa-check-square-o"></i> My Tasks </a>
+                    </li>
+                    <li class="active">
                         <a href="Project.php"> <i class="menu-icon fa fa-calendar"></i>Examination </a>
+                    </li>
+                    <li class="active">
+                        <a href="mycourses.php"> <i class="menu-icon fa fa-book"></i>My Courses </a>
                     </li>
                       <li class="active">
                         <a href="change-password.php"> <i class="menu-icon fa fa-cog"></i>Change Password </a>
