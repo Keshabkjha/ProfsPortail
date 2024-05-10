@@ -67,4 +67,4 @@ ProfsPortail is a collaborative platform designed for institutes to facilitate s
 
 **Project Demonstration Video**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/13OsAfRbVGY?si=0Bke1uAeTtI_m5AF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[![Video](https://img.youtube.com/vi/13OsAfRbVGY/0.jpg)](https://youtu.be/13OsAfRbVGY?vi=2AXCLWU_Hs7NV56d)
