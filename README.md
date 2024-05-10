@@ -32,10 +32,15 @@ ProfsPortail is a collaborative platform designed for institutes to facilitate s
     A dedicated project management window enables professors to oversee and coordinate projects efficiently.
     Professors can collaborate on projects, assign tasks, track progress, and share updates within the platform.
     Professors can see their daily task assigned by HOD through Task Interface.
+  
   **7. Integration with ERP Model**
-    Integrated Student's ERP with this ProfsPortail Website. This will help Professors and HOD to Access student. And Update Assignment Notices, Declare Result Give attendance and all other useful students Work through this Application.
+  
+    Integrated Student's ERP with this ProfsPortail Website. This will help Professors and HOD to Access student. And Update Assignment Notices, Declare Result Give attendance and all other useful students Work       through this Application.
+  
   **8. AI-driven Absence Management**
+    
     Substitutes are automatically assigned to cover classes during the absence of professors.
+
 **How to Use**
 
   Student can directly use the platform without Sign Up/Login. They can only give their basic details and send query to respective Professors.
