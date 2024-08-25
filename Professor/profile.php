@@ -137,14 +137,14 @@ foreach($results as $row)
 
 <div class="form-group">
 <label for="street" class=" form-control-label">Email ID</label>
-<input type="text" name="email" value="<?php  echo $row->Email;?>" id="email" class="form-control" required="true">
+<input type="email" name="email" value="<?php  echo $row->Email;?>" id="email" class="form-control" required="true">
 </div>
 
 
 
 <div class="row form-group">
 <div class="col-12">
-<div class="form-group"><label for="city" class=" form-control-label">Mobile Number</label><input type="text" name="mobilenumber" id="mobilenumber" value="<?php  echo $row->MobileNumber;?>" class="form-control" required="true" maxlength="10" pattern="[0-9]+"></div>
+<div class="form-group"><label for="city" class=" form-control-label">Mobile Number</label><input type="tel" name="mobilenumber" id="mobilenumber" value="<?php  echo $row->MobileNumber;?>" class="form-control" required="true" maxlength="10" pattern="[0-9]+"></div>
 </div>
 </div>
 
@@ -220,7 +220,7 @@ foreach($result2 as $row1)
 
 <div class="row form-group">
 <div class="col-12">
-<div class="form-group"><label for="city" class=" form-control-label">Description (if Any)</label><textarea type="text" name="description" id="description" class="form-control" rows="3" cols="12" required="true"><?php  echo $row->description;?></textarea></div>
+<div class="form-group"><label for="city" class=" form-control-label">Description (if Any)</label><textarea type="text" name="description" id="description" class="form-control" rows="3" cols="12"><?php  echo $row->description;?></textarea></div>
 </div>
 </div>
 
