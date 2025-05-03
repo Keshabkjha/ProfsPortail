@@ -27,10 +27,10 @@
                         <a href="erp.php"> <i class="menu-icon fa fa-cogs"></i>Student's ERP </a>
                     </li>
                     <li class="active">
-                        <a href="Chat.php"> <i class="menu-icon fa fa-comment"></i>HOD Chat </a>
+                        <a href="Chat.php"> <i class="menu-icon fa fa-comment"></i>Messages</a>
                     </li>
                     <li class="active">
-                        <a href="Grant.php"> <i class="menu-icon fa fa-envelope"></i>HOD Grant </a>
+                        <a href="Grant.php"> <i class="menu-icon fa fa-envelope"></i>Leave Request</a>
                     </li>
                     <li class="active">
                         <a href="Lecture.php"> <i class="menu-icon fa fa-graduation-cap"></i>My Lecture </a>
@@ -42,7 +42,7 @@
                         <a href="mytasks.php"> <i class="menu-icon fa fa-check-square-o"></i> My Tasks </a>
                     </li>
                     <li class="active">
-                        <a href="Project.php"> <i class="menu-icon fa fa-calendar"></i>Examination </a>
+                        <a href="exam.php"> <i class="menu-icon fa fa-calendar"></i>Examination </a>
                     </li>
                     <li class="active">
                         <a href="mycourses.php"> <i class="menu-icon fa fa-book"></i>My Courses </a>

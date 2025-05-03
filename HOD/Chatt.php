@@ -2,12 +2,9 @@
 session_start();
 error_reporting(0);
 include('includes/dbconnection.php');
-
-// Check if the user is logged in
 if (strlen($_SESSION['trmsaid'] == 0)) {
     header('location:logout.php');
 } else {
-    // Function to load chat messages
     function loadMessages()
     {
         $messages = file_get_contents('chatt.txt');
@@ -18,15 +15,11 @@ if (strlen($_SESSION['trmsaid'] == 0)) {
         }
         return $html;
     }
-
-    // Function to save chat message
     function saveMessage($message)
     {
-        $message = htmlentities($message); // Sanitize the message
+        $message = htmlentities($message);
         file_put_contents('chatt.txt', $message . "\n", FILE_APPEND | LOCK_EX);
     }
-
-    // Check if the form is submitted
     if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['message'])) {
         saveMessage($_SESSION['username'] . ": " . $_POST['message']);
         header("Location: chatt.php");
@@ -62,13 +55,13 @@ if (strlen($_SESSION['trmsaid'] == 0)) {
 </head>
 
 <body>
-    <!-- Left Panel -->
+    
 
     <?php include_once('includes/sidebar.php'); ?>
 
     <div id="right-panel" class="right-panel">
 
-        <!-- Header-->
+
         <?php include_once('includes/header.php'); ?>
         <div class="breadcrumbs">
             <div class="col-sm-4">
@@ -100,13 +93,11 @@ if (strlen($_SESSION['trmsaid'] == 0)) {
                         </div>
                     </div>
                 </div>
-            </div><!-- .animated -->
-        </div><!-- .content -->
+            </div>
+        </div>
 
 
-    </div><!-- /#right-panel -->
-
-    <!-- Right Panel -->
+    </div>
 
 
     <script src="../vendors/jquery/dist/jquery.min.js"></script>

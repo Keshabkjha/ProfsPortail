@@ -45,9 +45,13 @@ echo "<script>window.location.href='dashboard.php'</script>";
    
     <title>ProfsPortail|| Profses Profile</title>
   
-    <link rel="apple-touch-icon" href="apple-icon.png">
+    
   
 
+    <link rel="apple-touch-icon" href="apple-icon.png">
+   
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
 
     <link rel="stylesheet" href="../vendors/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="../vendors/font-awesome/css/font-awesome.min.css">
