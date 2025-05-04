@@ -1,6 +1,6 @@
 {
     "name": "keshabkjha/profsportail",
-    "description": "A brief description of your project",
+    "description": "ProfsPortail is a collaborative platform designed for institutes to facilitate seamless communication and management among professors, Head of Departments (HOD), and students. ",
     "type": "project",
     "require": {
         "php": "^8.0"
@@ -12,5 +12,13 @@
     },
     "scripts": {
         "test": "vendor/bin/phpunit"
-    }
+    },
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Keshab Kumar",
+            "email": "keshabkumarjha876@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
 }
